@@ -1,7 +1,13 @@
-# python_threads_and_processes
-Discussion and examples of using multiple threads and processes in Python.
+# Multi-threading and Multi-processing in Python
+There are multiple libraries in Python which give the option to multi-thread and multi-process your code. This can give a significant speed improvement over single threaded code, allowing tasks to be completed in parallel, and in many cases doesn't require significantly more complicated code.
 
-The code and examples can be found in the jupyter notebook.
+This repo contains two notebooks which give an introduction to the notion of multi-threading and multi-processing, examples of using high level code to process tasks more efficiently, and also an introduction to using lower level APIs to write a more controlled pipeline using a Computer Vision example.
+
+The notebook **Intro_to_Mutli-Threading_and_Multi_Processing_in_Python.ipynb** gives an introduction (reproduced below) to threads and processes, and multiple examples of how the multiprocessing library can easyily be used to speed up your code. It also gives an example of using the **fast_map** library to combine threads and processes for even greater improvements.
+
+The notebook **Low_Level_Mutli-Threading_and_Multi_Processing.ipynb** gives an example of spawning threads and processes directly, using multiple threads and processes simultaneously for different tasks in a Computer Vision use case.
+
+## Introduction to threads and processes (from Intro_to_Mutli-Threading_and_Multi_Processing_in_Python.ipynb)
 
 ### The multi-threaded kitchen: understanding threads and processes
 
