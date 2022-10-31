@@ -3,9 +3,9 @@ There are multiple libraries in Python which give the option to multi-thread and
 
 This repo contains two notebooks which give an introduction to the notion of multi-threading and multi-processing, examples of using high level code to process tasks more efficiently, and also an introduction to using lower level APIs to write a more controlled pipeline using a Computer Vision example.
 
-The notebook **Intro_to_Mutli-Threading_and_Multi_Processing_in_Python.ipynb** gives an introduction (reproduced below) to threads and processes, and multiple examples of how the multiprocessing library can easyily be used to speed up your code. It also gives an example of using the **fast_map** library to combine threads and processes for even greater improvements.
+The notebook [**Intro_to_Mutli-Threading_and_Multi_Processing_in_Python.ipynb**](https://github.com/joshjmatthews/python_threads_and_processes/blob/main/Intro_to_Multi-Threading_and_Multi-Processing_in_Python.ipynb) gives an introduction (reproduced below) to threads and processes, and multiple examples of how the multiprocessing library can easyily be used to speed up your code. It also gives an example of using the [**fast_map**](https://github.com/michalmonday/fast_map) library to combine threads and processes for even greater improvements.
 
-The notebook **Low_Level_Mutli-Threading_and_Multi_Processing.ipynb** takes on a Computer Vision use case, and covers using lower level code to spawn threads and processes directly, simulatanously handling multiple different tasks to efficiently solve the problem.
+The notebook [**Low_Level_Mutli-Threading_and_Multi_Processing.ipynb**](https://github.com/joshjmatthews/python_threads_and_processes/blob/main/Low_Level_Multi-Threading_and_Multi_Processing.ipynb) takes on a Computer Vision use case, and covers using lower level code to spawn new threads and processes directly, simulatanously handling multiple different tasks to efficiently solve the problem.
 
 ## Introduction to threads and processes (from Intro_to_Mutli-Threading_and_Multi_Processing_in_Python.ipynb)
 
